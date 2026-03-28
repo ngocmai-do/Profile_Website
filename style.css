@@ -62,7 +62,6 @@ html {
 
 body,
 main {
-    margin-left: 140px;
     height: 100%;
     text-align: left;
 }
@@ -92,9 +91,9 @@ main {
     margin: 0 10px;
 }
 
-.tech-icons{
+.tech-icons {
     display: flex;
-    gap: 20px;     
+    gap: 20px;
     flex-wrap: wrap;
 }
 
@@ -129,7 +128,10 @@ main {
     #sideNav {
         width: 100%;
         height: auto;
-        position: fixed-top;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
         flex-direction: row;
         justify-content: space-around;
         padding: 0.5rem;
@@ -137,7 +139,7 @@ main {
 
     body {
         margin-left: 0;
-        padding-top: 0;
+        padding-top: 70px;
     }
 
     main {
@@ -160,5 +162,9 @@ main {
     .tech-icons {
         gap: 15px;
         font-size: 2rem;
+    }
+
+    .snap-section {
+        min-height: calc(100vh - 70px);
     }
 }
