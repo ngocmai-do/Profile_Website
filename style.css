@@ -47,12 +47,6 @@ body {
     font-weight: 500;
 }
 
-.custom-navbar .nav-link:hover {
-    color: #5a3e2b;
-    background-color: #ffd59e;
-    border-radius: 5px;
-    transition: all 0.3s ease;
-}
 
 html {
     scroll-behavior: smooth;
@@ -157,13 +151,6 @@ main {
         font-size: 0.6rem;
         padding: 0.5rem;
         font-weight: 100;
-    }
-
-    .custom-navbar .nav-link:hover {
-        color: #5a3e2b;
-        background-color: #ffd59e;
-        border-radius: 5px;
-        transition: all 0.3s ease;
     }
 
     .tech-icons {
