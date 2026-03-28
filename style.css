@@ -148,9 +148,10 @@ main {
     }
 
     .custom-navbar .nav-link {
+        color: #377288;
         font-size: 0.6rem;
         padding: 0.5rem;
-        font-weight: 100;
+        font-weight: 200;
     }
 
     .tech-icons {
